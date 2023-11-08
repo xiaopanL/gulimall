@@ -1,0 +1,20 @@
+package com.li.gulimall.coupon.service;
+
+import com.baomidou.mybatisplus.extension.service.IService;
+import com.li.common.utils.PageUtils;
+import com.li.gulimall.coupon.entity.SeckillSkuNoticeEntity;
+
+import java.util.Map;
+
+/**
+ * ??ɱ??Ʒ֪ͨ???
+ *
+ * @author xiaopang
+ * @email xiaopangli82@gmail.com
+ * @date 2023-11-06 16:18:16
+ */
+public interface SeckillSkuNoticeService extends IService<SeckillSkuNoticeEntity> {
+
+    PageUtils queryPage(Map<String, Object> params);
+}
+
